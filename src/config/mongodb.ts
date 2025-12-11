@@ -11,7 +11,7 @@
 export const DB_NAME = "notes-app";
 
 /**
- * Collection name for todos
+ * Collection name for notes
  */
 export const COLLECTION_NAME = "note";
 

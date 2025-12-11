@@ -113,7 +113,7 @@ export async function connectToDatabase(): Promise<{
 
   // Create new connection with error handling
   cached.promise = MongoClient.connect(MONGODB_URI, {
-    appName: "devrel.template.tanstack-start-todo",
+    appName: "devrel.template.tanstack-start-notesapp",
     ...MONGODB_CONNECTION_CONFIG,
   })
     .then((client) => {
